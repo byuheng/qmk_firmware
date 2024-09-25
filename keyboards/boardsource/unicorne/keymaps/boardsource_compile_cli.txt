@@ -1,0 +1,13 @@
+qmk compile -kb boardsource/unicorne -km default
+qmk compile -kb boardsource/unicorne -km miryoku
+qmk compile -kb boardsource/unicorne -km miryoku_inverted_flip
+qmk compile -kb boardsource/unicorne -km miryoku_vim
+qmk compile -kb boardsource/unicorne -km miryoku_gallium_v1
+qmk compile -kb boardsource/unicorne -km miryoku_gallium_v1_wc_mod
+qmk compile -kb boardsource/unicorne -km manna-harbour_miryoku \
+ -e MIRYOKU_ALPHAS=QWERTY \
+ -e MIRYOKU_EXTRA=COLEMAKDH \
+ -e MIRYOKU_NAV=VIM
+ 
+ 
+POINTING_DEVICE_ENABLE = non

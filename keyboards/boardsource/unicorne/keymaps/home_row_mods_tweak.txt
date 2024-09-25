@@ -1,0 +1,2 @@
+if finding issue with the home row mods interfering with typing/coding,
+move the home row mods to bottom row.

@@ -1,0 +1,13 @@
+On some only some computers there's a problem where the mouse will drift if one is not installed. To fix this you simply turn turn it off in info.json "pointing_device": false,. example below:
+
+    "features": {
+        "audio": true,
+        "bootmagic": true,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true,
+        "pointing_device": false,
+        "rgb_matrix": true
+    },
